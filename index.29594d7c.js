@@ -1,0 +1,2 @@
+var e=Array.from(document.querySelectorAll("th")),r=Array.from(document.querySelectorAll("tbody tr"));e.forEach(function(e,t){e.addEventListener("click",function(){r.sort(function(e,r){var o=e.cells[t].textContent,n=r.cells[t].textContent;return isNaN(o)||isNaN(n)?o.localeCompare(n):Number(o)-Number(n)});var e=document.querySelector("tbody");r.forEach(function(r){return e.appendChild(r)})})});
+//# sourceMappingURL=index.29594d7c.js.map
